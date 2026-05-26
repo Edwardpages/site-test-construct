@@ -70,4 +70,39 @@
     document.getElementById("modal").style.display = "none";
   }
 </script>
+
+<section class="visuals" id="visuals">
+  <h2>Our Work</h2>
+  <img src="image4.jpg" alt="Image 4" onclick="openModal(this.src)">
+  <img src="image5.jpg" alt="Image 5" onclick="openModal(this.src)">
+  <img src="image6.jpg" alt="Image 6" onclick="openModal(this.src)">
+</section>
+
+<style>
+  .visuals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .visuals img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .visuals img:hover {
+    transform: scale(1.1);
+  }
+</style>
+
+<script>
+  function openModal(src) {
+    document.getElementById("modal").style.display = "flex";
+    document.getElementById("modal-image").src = src;
+  }
+  function closeModal() {
+    document.getElementById("modal").style.display = "none";
+  }
+</script>
 </body></html>
