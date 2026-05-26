@@ -1,0 +1,11 @@
+{
+  "business": "test-construct",
+  "type": "electrican",
+  "slug": "test-construct",
+  "files": [
+    "index.html",
+    "style.css",
+    "script.js"
+  ],
+  "model": "llama-3.3-70b-versatile"
+}
