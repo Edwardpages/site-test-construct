@@ -1,1 +1,106 @@
-<!DOCTYPE html><html lang="en-GB"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>test-construct - Amp up your business!</title><link rel="stylesheet" href="style.css"></head><body><nav><div class="logo">test-construct</div><ul><li><a href="#">Home</a></li><li><a href="#services">Services</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li></ul><button class="hamburger"></button></nav><header><div class="hero"><h1>Expert Electrican Services for Your Business</h1><p>Licensed electrican company for civil and industrial customers</p><button>Get a Quote</button><button>Learn More</button></div></header><section id="services"><h2>Our Services</h2><div class="cards"><div class="card"><div class="icon">🏠</div><h3>Home Electrification</h3><p>Professional home electrification services for a safe and efficient electrical system</p></div><div class="card"><div class="icon">💡</div><h3>Lamp Install</h3><p>Expert lamp installation services for residential and commercial properties</p></div></div></section><section id="about"><h2>About Us</h2><div class="about-grid"><div class="stats"><p>Founded: 2026</p><p>Owner: Baskien</p><p>Location: Berlin 123</p></div><div class="text"><p>At test-construct, we pride ourselves on being a licensed electrican company, dedicated to providing top-notch electrical services to our customers</p></div></div></section><section id="testimonials"><h2>What Our Clients Say</h2><div class="testimonials"><div class="testimonial"><p>★★★★★</p><p>Great service, very professional and efficient!</p><p>- John Smith, London</p></div><div class="testimonial"><p>★★★★★</p><p>Excellent work, highly recommended!</p><p>- Jane Doe, Manchester</p></div><div class="testimonial"><p>★★★★★</p><p>Very happy with the service, will definitely use again!</p><p>- Bob Johnson, Birmingham</p></div></div></section><section id="contact"><h2>Get in Touch</h2><div class="contact-grid"><div class="info"><p>Phone: +123</p><p>Email: <a href="mailto:test@test.me">test@test.me</a></p><p>Address: test street. 123, Berlin 123</p></div><div class="form"><form><input type="text" placeholder="Name"><input type="email" placeholder="Email"><input type="phone" placeholder="Phone"><textarea placeholder="Message"></textarea><button>Send Message</button></form></div></div></section><footer><p>&copy; 2026 test-construct</p><p>Designed and developed by test-construct</p></footer><script src="script.js"></script></body></html>
+<!DOCTYPE html><html lang="en-GB"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>test-construct - Amp up your business!</title><link rel="stylesheet" href="style.css"></head><body><nav><div class="logo">test-construct</div><ul><li><a href="#">Home</a></li><li><a href="#services">Services</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li></ul><button class="hamburger"></button></nav><header><div class="hero"><h1>Expert Electrican Services for Your Business</h1><p>Licensed electrican company for civil and industrial customers</p><button>Get a Quote</button><button>Learn More</button></div></header><section id="services"><h2>Our Services</h2><div class="cards"><div class="card"><div class="icon">🏠</div><h3>Home Electrification</h3><p>Professional home electrification services for a safe and efficient electrical system</p></div><div class="card"><div class="icon">💡</div><h3>Lamp Install</h3><p>Expert lamp installation services for residential and commercial properties</p></div></div></section><section id="about"><h2>About Us</h2><div class="about-grid"><div class="stats"><p>Founded: 2026</p><p>Owner: Baskien</p><p>Location: Berlin 123</p></div><div class="text"><p>At test-construct, we pride ourselves on being a licensed electrican company, dedicated to providing top-notch electrical services to our customers</p></div></div></section><section id="testimonials"><h2>What Our Clients Say</h2><div class="testimonials"><div class="testimonial"><p>★★★★★</p><p>Great service, very professional and efficient!</p><p>- John Smith, London</p></div><div class="testimonial"><p>★★★★★</p><p>Excellent work, highly recommended!</p><p>- Jane Doe, Manchester</p></div><div class="testimonial"><p>★★★★★</p><p>Very happy with the service, will definitely use again!</p><p>- Bob Johnson, Birmingham</p></div></div></section><section id="contact"><h2>Get in Touch</h2><div class="contact-grid"><div class="info"><p>Phone: +123</p><p>Email: <a href="mailto:test@test.me">test@test.me</a></p><p>Address: test street. 123, Berlin 123</p></div><div class="form"><form><input type="text" placeholder="Name"><input type="email" placeholder="Email"><input type="phone" placeholder="Phone"><textarea placeholder="Message"></textarea><button>Send Message</button></form></div></div></section><footer><p>&copy; 2026 test-construct</p><p>Designed and developed by test-construct</p></footer><script src="script.js"></script>
+<style>
+  .hero {
+    background-image: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+    animation: gradient-animation 10s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-image: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+    }
+    50% {
+      background-image: linear-gradient(to bottom, var(--secondary-color), var(--primary-color));
+    }
+    100% {
+      background-image: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+    }
+  }
+
+  .card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .testimonial {
+    background-image: linear-gradient(to bottom, #f7f7f7, #fff);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: testimonial-animation 5s ease infinite;
+  }
+
+  @keyframes testimonial-animation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .contact-grid {
+    background-image: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form input, .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .form button:hover {
+    background-color: var(--secondary-color);
+  }
+</style>
+
+<script>
+  // Add event listener to hamburger button
+  document.querySelector('.hamburger').addEventListener('click', () => {
+    // Toggle navigation menu
+    document.querySelector('nav ul').classList.toggle('show');
+  });
+
+  // Add event listener to learn more button
+  document.querySelector('.hero button:nth-child(2)').addEventListener('click', () => {
+    // Scroll to services section
+    document.querySelector('#services').scrollIntoView({ behavior: 'smooth' });
+  });
+
+  // Add event listener to get a quote button
+  document.querySelector('.hero button:nth-child(1)').addEventListener('click', () => {
+    // Scroll to contact section
+    document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
+  });
+</script>
+</body></html>
